@@ -1,0 +1,62 @@
+.Wind_container{
+    padding: 50px ;
+  width: 350px;
+  height: 250px;
+  background-color: rgba(0,0,0,0.55);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(212, 213, 140);
+  /*  */
+  /* margin-bottom: 30px; */
+}
+.wind_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 20px ; */
+}
+.Wind{
+    width: max-content;
+    /* padding: 0 40px; */
+    /* margin-top: 30px; */
+}
+.Wind>h6{
+    margin: 6px 0;
+}
+.Main_wind{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.wind_container{
+    position: relative;
+    width:180px;
+    height: 180px;
+}
+.outer1{
+    width:180px;
+    height: 50%;
+    overflow: hidden;
+}
+.outer1>div{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+.outer2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:30%;
+    height: 50%;
+    overflow: hidden;
+}
+.outer2>div{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 8px solid rgb(75, 163, 240);
+}

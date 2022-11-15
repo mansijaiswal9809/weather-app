@@ -1,0 +1,27 @@
+.bottom_div{
+    background-color: rgba(0,0,0,0.5);
+    margin: 0;
+    height: max-content;
+    /* padding: 25px; */
+    padding: 25px 75px;
+}
+.inner_container_bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.bottom_div>h2{
+    padding-bottom: 15px;
+}
+
+@media (max-width:1250px) {
+    .inner_container_bottom{
+        justify-content: center;
+    }
+}
+@media (max-width:460px) {
+    .bottom_div{
+        background-color: transparent;
+    }   
+}

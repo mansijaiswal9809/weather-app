@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { useContext } from 'react';
+import { weatherContext } from './components/Context/AppProvider';
 import './App.css';
+import Bottom from './components/bottom/Bottom';
+import Temp from './components/temp/Temp';
+import Top from './components/Top/Top';
 
 function App() {
+  const {data}=useContext(weatherContext);
+  let type
+  if(data.weather){
+    type=data.weather[0].main
+    console.log(type)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundImage: "url('')",backgroundRepeat:'no-repeat', backgroundSize:'cover' }}>
+    <Top/>
+    <Temp/>
+    <Bottom/>
     </div>
   );
 }

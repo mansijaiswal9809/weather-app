@@ -1,0 +1,14 @@
+.temp_div{
+    margin: 10px 0;
+    padding: 0;
+}
+.temp_div>div,.temp_div>h1,.temp_div>p{
+margin: 0;
+}
+.temp_div>h4{
+    font-weight: 600;
+    padding-top: 10px;
+}
+.icon-img{
+    padding: 0;
+}

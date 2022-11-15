@@ -1,0 +1,57 @@
+.containerUV {
+  padding: 50px;
+  width: 350px;
+  height: 250px;
+  background-color: rgba(0,0,0,0.55);
+  border-radius: 10px;
+  color: rgb(212, 213, 140);
+  /*  */
+  margin-bottom: 30px;
+}
+.topUV{
+    display: flex;
+  justify-content: space-between;
+}
+.midUV {
+  text-align: center;
+  margin: 25px 0;
+}
+.UV{
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    gap: 12px;
+    /* justify-content: space-between; */
+}
+/* .UV>div */
+.progress_main {
+  position: relative;
+  width: max-content;
+}
+.progress_inner {
+  width: max-content;
+}
+.progress_inner > span {
+    display: inline-block;
+  margin: 4px;
+  width: 14px;
+  background-color: rgb(243, 244, 246);
+  height: 6px;
+  border-radius: 3px;
+}
+.progress_inner2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 80%; */
+  height: 100%;
+  overflow: hidden;
+}
+.progress_inner2 > span {
+    display: inline-block;
+  margin: 4px;
+  width: 14px;
+  background-color: rgb(75, 163, 240);
+  height: 6px;
+  border-radius: 3px;
+}
