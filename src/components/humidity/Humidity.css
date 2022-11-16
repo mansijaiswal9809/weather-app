@@ -8,8 +8,8 @@
     flex-direction: column;
     align-items: center;
     color: rgb(212, 213, 140);
-    /*  */
-    /* margin-bottom: 30px; */
+    flex-shrink: 0;
+
 }
 .humidity_top{
     display: flex;
