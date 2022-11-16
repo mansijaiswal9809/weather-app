@@ -10,7 +10,6 @@ const [data, setdata] = useState({});
   const [state, dispatch] = useReducer(reducer, "mumbai");
   // console.log(state)
   const key=process.env.REACT_APP_API_KEY
-  console.log(key)
     
     useEffect(() => {
       const getWeatherDetails= async()=>{
